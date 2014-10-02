@@ -1,0 +1,21 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+font-family: Quicksand_Light;
+
+src: url('Quicksand_Light.eot'); /* IE9 Compat Modes */
+  src: url('Quicksand_Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Quicksand_Light.woff') format('woff'), /* Modern Browsers */
+       url('Quicksand_Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Quicksand_Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+	  src: url("Quicksand_Light.otf") format("opentype"); 
+}
+
+
+
+
+h1,h3,h5,h6,p {
+font-family:Quicksand_Light;
+}
